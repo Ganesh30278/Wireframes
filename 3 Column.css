@@ -1,0 +1,35 @@
+*{
+    margin:5px;
+}
+header{
+    width:80%;
+    height:100px;
+    background-color: goldenrod;
+}
+
+footer{
+    width:80%;
+    height:80px;
+    background-color: blue;
+}
+
+.content, .mid{
+    display:flex;
+    justify-content: center;
+}
+
+.mid{
+    flex-direction: column;
+}
+
+.left-sidebar, .right-sidebar{
+    height: 380px;
+    width: 200px;
+    background-color: red;
+}
+
+.left-content, .right-content{
+    width: 588px;
+    height: 182px;
+    background-color: yellowgreen;
+}

@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('payment.png');
+    font-size:larger;
+    font-weight: bold;
+    color: black;
+}
+
+form{
+    width: 600px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 #30475e, 0 4px 8px 0 #30475e;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+.box1{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+
+.box2{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 15px 0;
+    background-color: #fff;
+}
+
+.btn{
+    width: 49%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #30475e;
+    font-size: 15px;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
